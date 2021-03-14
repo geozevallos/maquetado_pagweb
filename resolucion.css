@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;700&display=swap');
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+
+body{
+    background-color: #fafafa;
+    font-size: 16px;
+    font-family: 'Commissioner', sans-serif;
+    min-height: 100vh;
+    background-image: url(./images/image-hero-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 220px;
+    
+}
+
+.header__item{
+    text-decoration: none;
+    color: white;
+    margin: 0 20px;
+}
+
+p{
+    color: #7d7d7d;
+}
+
+.contenedor__principal{
+    margin: 300px auto 0 auto;
+    width: 1440px;
+    padding: 0px 300px 200px 300px;
+}
+
+
+section{
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin-bottom: 30px;
+
+}
+
+.section__1{
+    text-align: center;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+
+
+button{
+    border-radius: 15px;
+    background-color: #3cb4ab;
+    padding: 15px 30px;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-family: 'Commissioner', sans-serif;
+}
+
+.contenedor__botones{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boton_back{
+    margin-left: 50px;
+}
+
+.boton_bookmark{
+    margin-right: 50px;
+    background-color: #f4f4f4;
+    color: #7c7c7c;
+}
+
+
+.section__2{
+    text-align: left;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.div__section2{
+    flex: 1;
+    padding: 0px 40px;
+}
+
+
+.div__section2.div_medio{
+    border-left: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+
+}
+
+.section__3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 40px;
+    gap: 20px;
+}
+
+.contenedor_articulos{
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.cabecera_articulo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.pie_articulo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.parrafo_texto{
+    text-align: justify;
+    line-height: 25px;
+}
+
+span{
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+}
+
+.texto_pledge{
+    color: #6dbeb4;
+    font-weight: 700;
+}
+
